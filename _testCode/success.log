@@ -1,0 +1,71 @@
+Compiling your contracts...
+===========================
+> Compiling @openzeppelin\contracts\access\ownable.sol
+> Compiling @openzeppelin\contracts\token\ERC20\ERC20.sol
+> Compiling @openzeppelin\contracts\token\ERC20\IERC20.sol
+> Compiling @openzeppelin\contracts\token\ERC20\extensions\IERC20Metadata.sol
+> Compiling @openzeppelin\contracts\utils\Context.sol
+> Compiling @openzeppelin\contracts\utils\math\SafeMath.sol
+> Compiling .\contracts\Lesson4ERC20.sol
+> Compiling .\contracts\Migrations.sol
+> Artifacts written to E:\git_2023\tintin-lesson-4\build\contracts
+> Compiled successfully using:
+   - solc: 0.8.19+commit.7dd6d404.Emscripten.clang
+
+
+Starting migrations...
+======================
+> Network name:    'mumbai'
+> Network id:      80001
+> Block gas limit: 20000000 (0x1312d00)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0xe4e12410dfa7b7d8d1855e1367496b7af877712769c89e43bed7d870fb5b0504
+   > Blocks: 9            Seconds: 51
+   > contract address:    0x851Fea9Eb253fD785d21eE971dB39dBff2c46CE7
+   > block number:        34035379
+   > block timestamp:     1680779899
+   > account:             0x5Ee9F4Fe59aDd6b33bbe41fDaa26BC43af51681c
+   > balance:             1.997350974490480016
+   > gas used:            176252 (0x2b07c)
+   > gas price:           1.5 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000264378 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.000264378 ETH
+
+
+2_deploy_Lesson4ERC20.js
+========================
+
+   Deploying 'Lesson4ERC20'
+   ------------------------
+   > transaction hash:    0x5278a868037fc7e4abfbabf8d72f1f107583f5d696863eebe659e04f20d9d152
+   > Blocks: 52           Seconds: 30
+   > contract address:    0xAb741a75f7B52B5475733ebd5e61a1Be781613e6
+   > block number:        34035457
+   > block timestamp:     1680780065
+   > account:             0x5Ee9F4Fe59aDd6b33bbe41fDaa26BC43af51681c
+   > balance:             1.995797119990480016
+   > gas used:            990192 (0xf1bf0)
+   > gas price:           1.5 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001485288 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.001485288 ETH
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.001749666 ETH
