@@ -1,6 +1,10 @@
 # tintin-lesson-4
 
 
-``` code
+```bash
 truffle micrate --network development
+```
+
+```bash
+truffle micrate --network mumbai
 ```
