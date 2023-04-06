@@ -46,7 +46,7 @@
 
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 let config = {
-  privateKey: '',
+  privateKey: process.env.web3_privateKey,
   infuraId: '',
 };
 
