@@ -4,11 +4,13 @@ specifiers:
   '@openzeppelin/contracts': ^4.8.2
   '@truffle/hdwallet-provider': ^2.1.9
   truffle-plugin-verify: ^0.6.2
+  tunnel: ^0.0.6
 
 dependencies:
   '@openzeppelin/contracts': 4.8.2
   '@truffle/hdwallet-provider': 2.1.9
   truffle-plugin-verify: 0.6.2
+  tunnel: 0.0.6
 
 packages:
 
@@ -1021,7 +1023,7 @@ packages:
       ajv: 6.12.6
       better-ajv-errors: 0.8.2_ajv@6.12.6
       neodoc: 2.0.2
-      semver: 7.3.7
+      semver: 7.3.8
       source-map-support: 0.5.21
     optionalDependencies:
       prettier: 2.8.7
