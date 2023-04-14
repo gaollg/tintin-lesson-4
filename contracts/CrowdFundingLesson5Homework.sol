@@ -63,7 +63,7 @@ contract CrowdFundingLesson5Homework is CrowdFundingStorage {
     funders[campaignId].push(Funder({addr: msg.sender, amount: msg.value}));
 
     isPartcipate[campaignId][msg.sender] = true;
-    emit CampaignLog(campaignId, msg.sender, msg.value);
+    emit CampaignBidLog(campaignId, msg.sender, msg.value);
   }
 
   function getTotalAmount(uint campaignId) external view returns (uint amount) {
